@@ -6,6 +6,10 @@ import java.util.List;
 
 import static java.util.Arrays.*;
 
+/***
+ * Given an array 'arr' with 'n' elements,
+ * the task is to rotate the array to the left by 'k' steps, where 'k' is non-negative.
+ */
 public class RotateArray {
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<>(List.of(1,2,3,4,5,6));
